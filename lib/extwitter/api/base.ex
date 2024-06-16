@@ -96,7 +96,7 @@ defmodule ExTwitter.API.Base do
   end
 
   def request_url(path) do
-    "https://api.twitter.com/#{path}"
+    "https://api.twitter.com/2/#{path}"
   end
 
   defp upload_url(path) do
